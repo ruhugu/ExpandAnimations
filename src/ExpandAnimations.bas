@@ -186,7 +186,7 @@ function fixateSlideNumber(doc as Object, slide as Object, slideNr as Integer, s
             copy.Position = shape.Position
             copy.Size = shape.Size
             copy.TextVerticalAdjust = shape.TextVerticalAdjust
-            copy.TextHorizontalAdjust = com.sun.star.drawing.TextHorizontalAdjust.RIGHT
+            copy.TextHorizontalAdjust = com.sun.star.drawing.TextHorizontalAdjust.CENTER
         end if
     next
 end function
